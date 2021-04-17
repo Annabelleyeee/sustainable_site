@@ -1,0 +1,40 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+ }
+
+nav { /* this controls the box surrounding the entire navbar*/
+    background-color: #002561;
+    display: inline-block;
+    width: 100%;
+}
+
+div.leftnav a{ /* this determines the logo link*/
+    float: left;
+    padding: 20px 30px;
+}
+
+div.rightnav a { /* this determines the links on the right side of the navbat*/
+    text-align: center;
+    float: right;
+    font-size: 16px;
+    padding: 40px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Alata', sans-serif; 
+}
+
+nav:hover {/* this controls what happens when the nav bar is hovered over*/
+    background-color: white;
+}
+
+nav:hover div.rightnav a { /* this controls what happens to the right links when the navbar is hovered over*/
+    color: #002561;
+}
+
+nav:hover div.rightnav a:hover { /* this controls what happens when the links are hovered over*/
+    color: #ffc40c;
+}
+nav:hover div.leftnav img:hover { /* this controls what happens to the logo when it is hovered over*/
+    width: 200px;
+}
