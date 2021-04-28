@@ -1,7 +1,11 @@
 * {
     margin: 0 auto;
     padding: 0;
+    box-sizing: border-box;
+
  }
+
+ /*This is the style fot the NavBar section*/
 
 nav { /* this controls the box surrounding the entire navbar*/
     background-color: #002561;
@@ -37,4 +41,16 @@ nav:hover div.rightnav a:hover { /* this controls what happens when the links ar
 }
 nav:hover div.leftnav img:hover { /* this controls what happens to the logo when it is hovered over*/
     width: 200px;
+}
+
+/*this is the style for the main section of the page*/
+
+h1 {
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+
 }
