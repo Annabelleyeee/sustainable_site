@@ -72,6 +72,7 @@ h3 {
     font-size: 20px;
     text-align: center;
     color:  #002561;
+    margin-bottom: 20px;
     
 }
  
@@ -86,13 +87,14 @@ h4 {
 }
 
 div.images-container {
-    display:grid;
-    max-width: 90%;
-    margin: 0 auto;
+    display: grid;
+    max-width: 80%;
+    margin: 40px auto;
     grid-template-areas:
     'img1 img2 img3'
-    'header1 header2 header3';
-
+    'header1 header2 header3'
+    'goals gt phil';
+    
 }
 
 div.images-container img{ /* add alt text to images in html */
