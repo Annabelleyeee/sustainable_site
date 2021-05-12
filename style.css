@@ -43,7 +43,7 @@ nav:hover div.leftnav img:hover { /* this controls what happens to the logo when
     width: 200px;
 }
 
-/*this is the style for the main section of the page*/
+/*this is the style for the main section of the homepage*/
 
 h1 {
     font-family: 'sofia-pro', sans-serif;
@@ -115,6 +115,15 @@ div.images-container a { /* this styles the links within the container */
         margin-top: 25px;
 }
 
-div.images-container a:hover {
+div.images-container a:hover { /*this sytles the links in the container when they are hovered over*/
     background-color:#002561 ;
+}
+
+.footer-container {
+    display: grid;
+    max-width: 100%;
+    margin: auto;
+    grid-template-areas:
+    'contact visit discover'
+    
 }
