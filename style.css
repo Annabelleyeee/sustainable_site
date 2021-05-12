@@ -5,6 +5,10 @@
 
  }
 
+ a {
+     text-decoration: none;
+     color: white;
+ }
  /*This is the style fot the NavBar section*/
 
 nav { /* this controls the box surrounding the entire navbar*/
@@ -23,8 +27,6 @@ div.rightnav a { /* this determines the links on the right side of the navbat*/
     float: right;
     font-size: 16px;
     padding: 40px;
-    text-decoration: none;
-    color: white;
     font-family: 'Alata', sans-serif; 
 }
 
@@ -86,6 +88,14 @@ h4 {
 
 }
 
+h5 {
+    font-family: 'sofia-pro', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 0;
+    padding: 0;
+}
 div.images-container { /* this styles the grid in which the main content sits in on the homepage*/
     display: grid;
     max-width: 85%;
@@ -119,11 +129,19 @@ div.images-container a:hover { /*this sytles the links in the container when the
     background-color:#002561 ;
 }
 
+footer {
+    margin-top: 150px;
+}
 .footer-container {
+    background-color: #002561;
+    color: white;
+    font-family: 'sofia-pro', sans-serif;
     display: grid;
     max-width: 100%;
     margin: auto;
+    padding: 40px ;
     grid-template-areas:
     'contact visit discover'
-    
 }
+
+
