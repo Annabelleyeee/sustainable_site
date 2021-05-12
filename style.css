@@ -80,15 +80,15 @@ h4 {
     font-family: 'sofia-pro', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 14px;
+    font-size: 22px;
     margin-top: 0;
     padding: 0;
 
 }
 
-div.images-container {
+div.images-container { /* this styles the grid in which the main content sits in on the homepage*/
     display: grid;
-    max-width: 80%;
+    max-width: 85%;
     margin: 40px auto;
     grid-template-areas:
     'img1 img2 img3'
@@ -97,8 +97,24 @@ div.images-container {
     
 }
 
-div.images-container img{ /* add alt text to images in html */
-   width: 300px;
+div.images-container img{ /* add alt text to images in html/ this styles the images within the container*/
+   height: 250px;
+   margin-bottom: 25px;
    
 }
 
+div.images-container a { /* this styles the links within the container */
+        text-decoration: none;
+        color: white;
+        background-color: #ffc40c ;
+        border-radius: 20px;
+        border: 1px solid #ffc40c;
+        font-family: 'sofia-pro', sans-serif; 
+        font-size: 18px;
+        padding: 5px 15px 10px 15px;
+        margin-top: 25px;
+}
+
+div.images-container a:hover {
+    background-color:#002561 ;
+}
