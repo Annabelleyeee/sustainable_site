@@ -2,146 +2,205 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'sofia-pro', sans-serif ;
+}
 
- }
+a {
+    text-decoration: none;
+    color: white;
+}
+ 
+p {
+    margin: 0 0 20px 80px;
 
- a {
-     text-decoration: none;
-     color: white;
- }
- /*This is the style fot the NavBar section*/
+}
 
-nav { /* this controls the box surrounding the entire navbar*/
+/* these are the styles forthe headings*/
+
+h1 {
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 0;
+
+}
+
+h1.home {
+    margin-bottom: 0;
+}
+
+h1.tm {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 40px;
+    color: #002561;
+    margin: 0;
+}
+
+h1.under {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 20px;
+    color: #002561;
+    margin-top: 0;
+}
+
+h2 {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    color: #002561;
+    margin-bottom: 20px;
+
+}
+
+h3 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0 0 20px 80px;
+
+}
+    
+
+/*This is the style fot the NavBar section*/
+
+nav {
+    /* this controls the box surrounding the entire navbar*/
     background-color: #002561;
     display: inline-block;
     width: 100%;
 }
 
-div.leftnav a{ /* this determines the logo link*/
+div.leftnav a {
+    /* this determines the logo link*/
     float: left;
     padding: 20px 30px;
 }
 
-div.rightnav a { /* this determines the links on the right side of the navbat*/
+div.rightnav a {
+    /* this determines the links on the right side of the navbat*/
     text-align: center;
     float: right;
     font-size: 16px;
     padding: 40px;
-    font-family: 'Alata', sans-serif; 
+    font-family: 'Alata', sans-serif;
 }
 
-nav:hover {/* this controls what happens when the nav bar is hovered over*/
+nav:hover {
+    /* this controls what happens when the nav bar is hovered over*/
     background-color: white;
 }
 
-nav:hover div.rightnav a { /* this controls what happens to the right links when the navbar is hovered over*/
+nav:hover div.rightnav a {
+    /* this controls what happens to the right links when the navbar is hovered over*/
     color: #002561;
 }
 
-nav:hover div.rightnav a:hover { /* this controls what happens when the links are hovered over*/
+nav:hover div.rightnav a:hover {
+    /* this controls what happens when the links are hovered over*/
     color: #ffc40c;
 }
-nav:hover div.leftnav img:hover { /* this controls what happens to the logo when it is hovered over*/
+
+nav:hover div.leftnav img:hover {
+    /* this controls what happens to the logo when it is hovered over*/
     width: 200px;
 }
 
 /*this is the style for the main section of the homepage*/
 
-h1 {
-    font-family: 'sofia-pro', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    font-size: 50px;
-    margin-top: 38px;
-    padding: 0;
-
-}
-
-h2 {
-    font-family: 'sofia-pro', sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    font-size: 40px;
-    text-align: center;
-    color: #002561;
-}
-
-h3 {
-    font-family: 'sofia-pro', sans-serif;
-    font-weight: 200; 
-    font-style: italic;
-    font-size: 20px;
-    text-align: center;
-    color:  #002561;
-    margin-bottom: 20px;
-    
-}
- 
-h4 {
-    font-family: 'sofia-pro', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 22px;
-    margin-top: 0;
-    padding: 0;
-
-}
-
-h5 {
-    font-family: 'sofia-pro', sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
-    margin-top: 0;
-    padding: 0;
-}
-div.images-container { /* this styles the grid in which the main content sits in on the homepage*/
+div.images-container {
+    /* this styles the grid in which the main content sits in on the homepage*/
     display: grid;
     max-width: 85%;
-    margin: 40px auto;
+    margin: 60px auto;
     grid-template-areas:
-    'img1 img2 img3'
-    'header1 header2 header3'
-    'goals gt phil';
-    
+        'img1 img2 img3'
+        'header1 header2 header3'
+        'goals gi phil';
+
 }
 
-div.images-container img{ /* add alt text to images in html/ this styles the images within the container*/
-   height: 250px;
-   margin-bottom: 25px;
-   
+div.images-container img {
+    /* add alt text to images in html/ this styles the images within the container*/
+    height: 250px;
+    margin-bottom: 25px;
+
 }
 
-div.images-container a { /* this styles the links within the container */
-        text-decoration: none;
-        color: white;
-        background-color: #ffc40c ;
-        border-radius: 20px;
-        border: 1px solid #ffc40c;
-        font-family: 'sofia-pro', sans-serif; 
-        font-size: 18px;
-        padding: 5px 15px 10px 15px;
-        margin-top: 25px;
+div.images-container h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+div.images-container a {
+    /* this styles the links within the container */
+    text-decoration: none;
+    color: white;
+    background-color: #ffc40c;
+    border-radius: 20px;
+    border: 1px solid #ffc40c;
+    font-size: 18px;
+    padding: 5px 15px 10px 15px;
+    margin-top: 25px;
 }
 
-div.images-container a:hover { /*this sytles the links in the container when they are hovered over*/
-    background-color:#002561 ;
+div.images-container a:hover {
+    /*this sytles the links in the container when they are hovered over*/
+    background-color: #002561;
 }
 
+/* This styles the footer section*/
 footer {
     margin-top: 150px;
 }
+
 .footer-container {
     background-color: #002561;
     color: white;
-    font-family: 'sofia-pro', sans-serif;
+    font-family: 'Alata', sans-serif;
     display: grid;
     max-width: 100%;
     margin: auto;
-    padding: 40px ;
     grid-template-areas:
-    'contact visit discover'
+        'contact visit discover'
 }
 
+.footer-container h3 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    margin: 40px 0 20px 0;
+    padding: 0;
+}
 
+.footer-container p {
+    font-size: 12px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.footer-container a {
+    font-size: 12px;
+
+}
+.footer-container a:hover {
+    font-style: oblique;
+}
+ h2.philosophy {
+     margin-top: 20px;
+     margin-bottom: 40px;
+ }
+.philosophy-container p {
+    margin: 0 0 30px 80px;
+    max-width: 70%;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    margin: 0 0 30px 80px;
+
+}
