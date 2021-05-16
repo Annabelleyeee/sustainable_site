@@ -15,6 +15,11 @@ p {
 
 }
 
+ul {
+    margin: 0 0 30px 80px;
+
+}
+
 /* these are the styles forthe headings*/
 
 h1 {
@@ -57,7 +62,7 @@ h2 {
 }
 
 h3 {
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     font-size: 20px;
     margin: 0 0 20px 80px;
@@ -134,6 +139,7 @@ div.images-container h3 {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-weight: 400;
 }
 div.images-container a {
     /* this styles the links within the container */
@@ -155,24 +161,25 @@ div.images-container a:hover {
 /* This styles the footer section*/
 footer {
     margin-top: 150px;
+    background-color: #002561;
 }
 
 .footer-container {
-    background-color: #002561;
     color: white;
     font-family: 'Alata', sans-serif;
     display: grid;
-    max-width: 100%;
-    margin: auto;
+    max-width: 90%;
+    margin: auto ;
+    padding: 40px 0;
     grid-template-areas:
-        'contact visit discover'
+        'footer-contact footer-visit footer-discover footer-icons'
 }
 
 .footer-container h3 {
     font-weight: 500;
     font-style: normal;
     font-size: 25px;
-    margin: 40px 0 20px 0;
+    margin: 0px 0 20px 0;
     padding: 0;
 }
 
@@ -200,7 +207,7 @@ footer {
     font-style: normal;
 }
 
-ul {
-    margin: 0 0 30px 80px;
-
+i {
+    color: white;
+    
 }
