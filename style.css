@@ -57,7 +57,7 @@ h2 {
     font-size: 20px;
     text-align: center;
     color: #002561;
-    margin-bottom: 20px;
+    margin: 40px 0;
 
 }
 
@@ -216,4 +216,20 @@ i {
 
  li {
     margin-left: 40px;
+}
+
+a.sreport {
+    text-decoration: none;
+    color: white;
+    background-color: #ffc40c;
+    border-radius: 20px;
+    border: 1px solid #ffc40c;
+    font-size: 14px;
+    padding: 5px 15px 10px 15px;
+    margin-left: 120px;
+  
+}
+
+a.sreport:hover {
+    background-color: #002561;
 }
