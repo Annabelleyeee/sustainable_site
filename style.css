@@ -20,7 +20,7 @@ ul {
 
 }
 
-/* these are the styles forthe headings*/
+/* these are the styles for the headings*/
 
 h1 {
     font-weight: 400;
@@ -212,4 +212,8 @@ i {
     font-size: 20px;
     margin: 0 5px;
     
+}
+
+div.gandi li {
+    margin-left: 80px;
 }
