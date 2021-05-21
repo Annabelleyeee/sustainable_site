@@ -12,11 +12,15 @@ a {
  
 p {
     margin: 0 0 20px 80px;
+    max-width: 80%;
+    
 
 }
 
 ul {
-    margin: 0 0 30px 80px;
+    margin: 0 0 30px 120px;
+    max-width: 80%;
+
 
 }
 
@@ -214,9 +218,6 @@ i {
     
 }
 
- li {
-    margin-left: 40px;
-}
 
 a.sreport {
     text-decoration: none;
@@ -232,4 +233,8 @@ a.sreport {
 
 a.sreport:hover {
     background-color: #002561;
+}
+
+p.goalsintro {
+    text-align: center;
 }
